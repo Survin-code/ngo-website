@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import Donate from './components/Donate';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
-import Popup from './components/popup';
+import Popup from './components/Popup';
 import PdfGenerator from './components/PdfGenerator';
 import { Toaster } from 'react-hot-toast';
 //import { Analytics } from "@vercel/analytics/next"
