@@ -4,23 +4,23 @@ import pic from "../../public/UPI.jpg"
 function Donate()  {
  return (
     <>
-    <div name="Donate Now" className="flex flex-col md:flex-row items-center justify-center text-center">
+    <div name="Donate Now" className="flex flex-col md:flex-row items-center justify-center text-center" >
        
    <div className="md:w-full md:ml-48 md:mr-48 md:mt-20 mt-8 order-1">
-    <div className="flex space-x-1 text-2xl md:text-4xl bg-violet-600 text-white text-center justify-center">
+    <div className="flex space-x-1 text-2xl md:text-4xl bg-violet-600 text-white text-center justify-center m-8">
     <h3>Donate Now </h3>
     </div>
     <br/>  
     <div className="md:w-118 md:ml-38 md:mr-38 md:mt-5 mt-8">
      <p>
-     In the past 5 years, Saath has empowered more than 5,00,000 individuals.
+     In the past 5 years, Smit has empowered more than 5000 individuals.
 Your support can help us move towards our goal of creating inclusive societies
 with empowered families and communities.
      </p>
     </div>
                  <img
                  src={pic}
-                 className=" md:w-[150px] md:h-[200px] md:mt-10 md:ml-74  "
+                 className=" md:w-[210px] md:h-[280px] md:mt-10 md:ml-74  "
                  alt=""
                />
             <div className=" "><p>Scan this QR Code for making online payment.</p>

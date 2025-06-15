@@ -19,12 +19,16 @@ function Navbar() {
       text: "Programs",
     },
     {
-      id: 4,
-      text: "Contact Us",
+      id:4,
+      text: "Gallery",
     },
     {
       id: 5,
       text: "Donate Now",
+    },
+    {
+      id: 6,
+      text: "Contact Us",
     },
   ];
   return (

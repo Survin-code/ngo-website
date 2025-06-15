@@ -1,4 +1,5 @@
 import React from "react";
+import jsPDF from "jspdf";
 
 function About() {
   return (
@@ -44,6 +45,19 @@ function About() {
         </span>
         <br />
         <br />
+
+        <h1 className="text-green-600 font-semibold text-xl text-center">
+          Annual Report
+        </h1>
+        <span>
+          Checkout Our Annual Report below.
+
+
+
+
+
+        </span>
+
         {/* <h1 className="text-green-600 font-semibold text-xl">
           Team &Leadership
         </h1> */}

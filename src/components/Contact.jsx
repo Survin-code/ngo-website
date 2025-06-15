@@ -34,7 +34,7 @@ function Contact() {
         name="Contact Us"
         className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
       >
-        <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
+        <h1 className="text-3xl font-bold mb-2 ml-0 p-8 ">Contact Us</h1>
         <span>Please fill out the form below for contact</span>
         <div className=" flex flex-col items-center justify-center mt-5">
           <form
@@ -55,7 +55,7 @@ function Contact() {
               {errors.name && <span>This field is required</span>}
             </div>
             <div className="flex flex-col mb-4">
-              <label className="block text-gray-700">Email Address</label>
+              <label className="block text-gray-700">Email</label>
               <input
                 {...register("email", { required: true })}
                 className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -66,6 +66,20 @@ function Contact() {
               />
               {errors.email && <span>This field is required</span>}
             </div>
+
+            {/* <div className="flex flex-col mb-4">
+              <label className="block text-gray-700">Phone Number</label>
+              <input
+                {...register("phone", { required: true })}
+                className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="phone"
+                name="phone"
+                type="text"
+                placeholder="Enter your phone number"
+              />
+              {errors.phone && <span>This field is required</span>}
+            </div> */}
+
             <div className="flex flex-col mb-4">
               <label className="block text-gray-700">Message</label>
               <textarea
@@ -74,7 +88,7 @@ function Contact() {
                 id="message"
                 name="message"
                 type="text"
-                placeholder="Enter your Query"
+                placeholder="Enter your query"
               />
               {errors.message && <span>This field is required</span>}
             </div>
